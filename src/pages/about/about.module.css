@@ -1,0 +1,28 @@
+/* Ensures a consistent container size for all GIFs */
+.fadeContainer {
+    width: 400px;              /* Set the width to fit the largest GIF */
+    height: 400px;             /* Set the height to fit the largest GIF */
+    overflow: hidden;          /* Prevents any overflow if GIFs differ slightly */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 5px;  /* Smooth fade transition */
+  }
+  
+  /* Controls the opacity for fading effects */
+  .fadeIn {
+    opacity: 1;
+  }
+  
+  .fadeOut {
+    opacity: 0;
+  }
+  
+  /* Ensures each GIF scales to fit within the container */
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* Keeps GIF aspect ratio without stretching */
+  }
+  

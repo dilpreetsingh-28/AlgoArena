@@ -1,0 +1,16 @@
+/* Force white background for CodeMirror */
+.cm-theme {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  /* Ensure editor text color */
+  .cm-content {
+    color: black !important;
+  }
+  
+  /* Remove any dark mode highlighting */
+  .cm-gutters {
+    background-color: white !important;
+  }
+  
