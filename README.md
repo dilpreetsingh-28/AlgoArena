@@ -82,7 +82,7 @@ This iterative feedback process significantly contributed to improving platform 
 To clone and run the project locally:
 
 ```bash
-git clone https://github.com/Pratyushs411/AlgoArena.git
+git clone https://github.com/dilpreetsingh-28/AlgoArena.git
 cd AlgoArena
 cd algoarena
 npm install
